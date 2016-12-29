@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>限时秒杀</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/timeSpike.css">
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/timeSpike.js"></script>
+</head>
+<body>
+<div id="global_nav">
+    <div class="global_nav">
+        <div class="global_info fl">
+            <ul>
+                <li class="enter">Hi！欢迎来到polyanfkaya</li></ul>
+        </div>
+        <div class="global_info fr">
+            <ul>
+                <li>
+                    <a href="login.html">登录</a>|
+                    <a href="register.html">注册</a></li>
+                <li>
+                    <a href="shoppingCar.html">购物车</a></li>
+                <li>
+                    <a href="club.html">会员俱乐部</a></li>
+                <li>
+                    <a href="help.html">帮助中心</a></li>
+                <li>
+                    <a href="FAQ.html">常见问题</a></li>
+                <li>
+                    <a href="#">我的快递</a></li>
+                <li>
+                    <a href="#">我的收藏</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="hd_header">
+    <div class="hdtop_header">
+        <div class="p_logo">
+            <a href="."></a>
+            <a href="#"></a>
+        </div>
+        <div id="hd_search">
+            <div class="hdi-search">
+                <div class="form hdin_not">
+                    <form method="get" action="#">
+                        <input type="text" class="text" name="keywords" value="" />
+                        <input type="submit" value="搜索" onclick="" class="button" /></form>
+                </div>
+            </div>
+            <div id="hotwords">
+                <a href="#">韩风童装</a>
+                <s>|</s>
+                <a href="#">可爱童装</a>
+                <s>|</s>
+                <a href="#">简约女装</a>
+                <s>|</s>
+                <a href="#">甜美女装</a>
+                <s>|</s>
+                <a href="#">时尚妈妈</a>
+                <s>|</s>
+                <a href="#">明星同款</a></div>
+        </div>
+    </div>
+</div>
+<div class="yHeader">
+    <div class="yNavIndex">
+        <ul class="yMenuIndex">
+            <li class="nav_menuLi">
+                <a href="#" target="_blank">首页</a></li>
+            <li class="nav_menuLi">
+                <a href="#" target="_blank" class="active">限时秒杀</a></li>
+            <li class="nav_menuLi">
+                <a href="#">节日大促销</a></li>
+            <li class="nav_menuLi">
+                <a href="research.html">调查</a></li>
+            <li class="nav_menuLi">
+                <a id="kf">在线客服</a></li>
+        </ul>
+    </div>
+</div>
+<div class="djs">
+    <div class="inner">
+        <div class="dsj_banner">
+            <img src="images/djs_03.png" alt="倒计时banner">
+            <div class="time-item">
+                <!--<span id="month_show">月</span>-->
+                <span id="day_show">0天</span>
+                <strong id="hour_show">0时</strong>
+                <strong id="minute_show">0分</strong>
+                <strong id="second_show">0秒</strong>
+            </div><!--倒计时模块-->
+        </div>
+        <div class="zkzq">
+            <div class="zkzqTop">
+                <p class="bigP">DISOOUNT ZONE 折扣专场</p>
+                <p class="bigs">kn jkn znklvdkl vnkz znldf vnzl</p>
+            </div>
+            <div class="zkPro">
+                <ul class="proList clearfix">
+                    <li>
+                        <a href="javascript:void(0)"><img src="images/10.jpg" alt="商品"></a>
+                        <div class="proInfo">
+                            <span class="baoy">包邮</span>
+                            <div class="pro_price fr">
+                                <p class="price">￥：190</p>
+                                <s>原价：290</s>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)"><img src="images/11.jpg" alt="商品"></a>
+                        <div class="proInfo">
+                            <span class="baoy">包邮</span>
+                            <div class="pro_price fr">
+                                <p class="price">￥：140</p>
+                                <s>原价：200</s>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)"><img src="images/12.jpg" alt="商品"></a>
+                        <div class="proInfo">
+                            <span class="baoy">包邮</span>
+                            <div class="pro_price fr">
+                                <p class="price">￥：210</p>
+                                <s>原价：320</s>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)"><img src="images/13.jpg" alt="商品"></a>
+                        <div class="proInfo">
+                            <span class="baoy">包邮</span>
+                            <div class="pro_price fr">
+                                <p class="price">￥：120</p>
+                                <s>原价：190</s>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+                <ul class="proList clearfix">
+                    <li>
+                        <a href="javascript:void(0)"><img src="images/14.jpg" alt="商品"></a>
+                        <div class="proInfo">
+                            <span class="baoy">包邮</span>
+                            <div class="pro_price fr">
+                                <p class="price">￥：80</p>
+                                <s>原价：160</s>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)"><img src="images/15.jpg" alt="商品"></a>
+                        <div class="proInfo">
+                            <span class="baoy">包邮</span>
+                            <div class="pro_price fr">
+                                <p class="price">￥：150</p>
+                                <s>原价：210</s>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)"><img src="images/16.jpg" alt="商品"></a>
+                        <div class="proInfo">
+                            <span class="baoy">包邮</span>
+                            <div class="pro_price fr">
+                                <p class="price">￥：120</p>
+                                <s>原价：180</s>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)"><img src="images/17.jpg" alt="商品"></a>
+                        <div class="proInfo">
+                            <span class="baoy">包邮</span>
+                            <div class="pro_price fr">
+                                <p class="price">￥：78</p>
+                                <s>原价：120</s>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+                <ul class="proList clearfix">
+                    <li>
+                        <a href="javascript:void(0)"><img src="images/18.jpg" alt="商品"></a>
+                        <div class="proInfo">
+                            <span class="baoy">包邮</span>
+                            <div class="pro_price fr">
+                                <p class="price">￥：128</p>
+                                <s>原价：178</s>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)"><img src="images/19.jpg" alt="商品"></a>
+                        <div class="proInfo">
+                            <span class="baoy">包邮</span>
+                            <div class="pro_price fr">
+                                <p class="price">￥：89</p>
+                                <s>原价：149</s>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)"><img src="images/20.jpg" alt="商品"></a>
+                        <div class="proInfo">
+                            <span class="baoy">包邮</span>
+                            <div class="pro_price fr">
+                                <p class="price">￥：120</p>
+                                <s>原价：190</s>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)"><img src="images/21.jpg" alt="商品"></a>
+                        <div class="proInfo">
+                            <span class="baoy">包邮</span>
+                            <div class="pro_price fr">
+                                <p class="price">￥：59</p>
+                                <s>原价：89</s>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+                <ul class="proList clearfix">
+                    <li>
+                        <a href="javascript:void(0)"><img src="images/22.jpg" alt="商品"></a>
+                        <div class="proInfo">
+                            <span class="baoy">包邮</span>
+                            <div class="pro_price fr">
+                                <p class="price">￥：210</p>
+                                <s>原价：330</s>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)"><img src="images/23.jpg" alt="商品"></a>
+                        <div class="proInfo">
+                            <span class="baoy">包邮</span>
+                            <div class="pro_price fr">
+                                <p class="price">￥：180</p>
+                                <s>原价：260</s>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)"><img src="images/24.jpg" alt="商品"></a>
+                        <div class="proInfo">
+                            <span class="baoy">包邮</span>
+                            <div class="pro_price fr">
+                                <p class="price">￥：155</p>
+                                <s>原价：270</s>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)"><img src="images/25.jpg" alt="商品"></a>
+                        <div class="proInfo">
+                            <span class="baoy">包邮</span>
+                            <div class="pro_price fr">
+                                <p class="price">￥：159</p>
+                                <s>原价：289</s>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="handu_footer ">
+    <div class="footer_black">
+        <a href="#">关于我们</a>|
+        <a href="#">联系我们</a>|
+        <a href="#">版权：张丹妮 王亚婷</a></div>
+</div>
+</body>
+</html>
